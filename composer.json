@@ -1,0 +1,19 @@
+{
+  "name": "jmucak/wp-template-loader-pack",
+  "description": "WP template loader",
+  "require": {
+    "php": ">=8.0"
+  },
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Josip Mucak"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "jmucak\\wpTemplateLoaderPack\\": "src"
+    }
+  }
+}
